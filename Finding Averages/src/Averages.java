@@ -6,4 +6,17 @@ public class Averages {
      */
 
 
+    public static void main(String[] args) {
+
+        int testScore1= 256441;
+        int testScore2= 1235841;
+        int testScore3= 140;
+        int testScore4= 12;
+
+        int sumTotal = testScore1 + testScore2 + testScore3 + testScore4;
+
+        double average = sumTotal/4.0;
+
+        System.out.println("The average is " + average);
+    }
 }
